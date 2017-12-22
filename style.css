@@ -1,0 +1,228 @@
+/*
+Theme Name: A003
+Template: correct-lite
+GitHub Theme URI: AdditionWeb/a003
+Author: AdditionWeb
+Author URI: http://www.additionweb.com
+Description: A beautiful theme for a wonderful church!
+Version: 1.0.0
+
+*/
+
+/* General Site Tweaks */
+.logo h2, .logo p {
+	color: #000000 !important;
+}
+
+.toggleMenu {
+	border-radius: 5px;
+}
+
+.toggleMenu:hover {
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.slide_info h2 {
+	font-size: 72px;
+	text-shadow: none !important;
+}
+
+.slide_info p {
+	font-size: 25px !important;
+	font-style: italic;
+}
+
+.nivo-directionNav {
+	display: none;
+}
+
+.nivo-controlNav {
+	display: none;
+}
+
+.resourcebox {
+	width: 25%;
+}
+
+.resourcebox p {
+	font-weight: 500;
+}
+
+.resourcebox-icon {
+			padding: 0 !important;
+			height: 93px !important;
+			width: 100% !important;
+			border: none;
+		}
+		
+	.resourcebox-icon i {
+		font-size: 80px !important;
+}
+
+.center-title {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.a003-cta {
+	display: flex;
+	background-color: #292929;
+	width: 100%;
+	padding: 30px 0;
+}
+
+.a003-cta h3 {
+	color: #e8e8e8;
+	margin-bottom: 0;
+}
+
+.a003-cta-button {
+	border: 2px solid #ffffff;
+	color: #ffffff;
+	font-size: 18px;
+	line-height: 2;
+	text-align: center;
+	padding: 10px 30px;
+	display: inline-block;
+	border-radius: 3px;
+}
+
+.a003-cta-button:hover {
+	background: rgba(255, 255, 255, 0.26);
+	color: #ffffff;
+}
+
+.wpcf7-form input[type=submit] {
+	float: none;
+}
+
+.page-template-full-width .site-main,
+.tribe-is-responsive .site-main {
+	width: 100%;
+}
+
+.elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated {
+	padding: 10px 0 0 !important;
+}
+
+.elementor-container {
+	margin: 0 !important;
+}
+
+.tribe-events-notices {
+	color: #676767;
+	background: none;
+	border: none;
+}
+
+#tribe-events-content .tribe-events-calendar div[id*=tribe-events-event-] h3.tribe-events-month-event-title {
+	font-size: 100% !important;
+}
+
+.tribe-list-widget {
+	list-style: none;
+}
+
+.entry-content ol li {
+	margin-left: 0;
+}
+
+.tribe-events-list-widget-events {
+	margin-bottom: 10px;
+}
+
+.tribe-list-widget h4 {
+	margin-bottom: 0;
+	font-size: 20px;
+}
+
+.site-main-404 {
+	width: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+	text-align: center;
+}
+
+/* Style tweaks on smaller screens */
+@media screen and (max-width:479px) {
+	
+	.resourcebox {
+		width: 100% !important;
+	}
+}
+
+@media screen and (max-width:767px) and (min-width:480px) {
+
+	.resourcebox{
+	 width: 50% !important;
+	 margin-bottom:25px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	
+	body.haveslide .header {
+		position: static;
+	}
+	
+	#home_slider {
+		display: none;
+	}
+	
+	#slider > div.nivo-caption {
+		display: block !important;
+	}
+	
+	.a003-cta {
+		text-align: center;
+	}
+	
+	.a003-cta-left {
+		float: none;
+	}
+	
+	.a003-cta-right {
+		float: none;
+		margin-top: 10px;
+	}
+}
+
+@media screen and (min-width:768px) {
+	#slider > div.nivo-caption > div > h2 { 
+		font-size: 60px !important;
+}
+	
+	.resourcebox {
+		width: 25% !important;
+	}
+	
+	.a003-cta-left {
+		float: left;
+		padding-top: 12px;
+	}
+
+	.a003-cta-right {
+		float: right;
+	}
+}
+
+@media screen and (max-width:980px) {
+	.sitenav {
+		padding: 0;
+	}
+	
+	body > div.header > div > div.sitenav > div > ul > li > a {
+		padding: 10px 10px !important;
+	}
+	
+	.sitenav ul li:first-child {
+		border-top: none;
+	}
+	
+	.toggle a {
+		background:url(images/mobile_nav_right.png) no-repeat right center #3e3e3e;
+	}
+
+}
